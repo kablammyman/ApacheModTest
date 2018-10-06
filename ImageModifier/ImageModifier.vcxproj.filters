@@ -15,18 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cppTest.cpp">
+    <ClCompile Include="mod_image_modifier.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="mod_helloworld.cpp">
+    <ClCompile Include="..\3rdParty\stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\stb_image_write.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cppTest.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="mod_helloworld.h">
+    <ClInclude Include="mod_image_modifier.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -15,5 +15,10 @@
 #include <http_protocol.h>
 #include <http_config.h>
 #include "ap_config.h"
-
+#include "apr_optional.h"
+#include <http_log.h>
+#include "apr_general.h"
+#include "apr_getopt.h"
+#include "apr_xml.h"
+#include "apr_file_io.h"
 #endif	/* MOD_FOO_HPP */
